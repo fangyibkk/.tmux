@@ -1,7 +1,0 @@
-set -g mouse on
-set -g status-keys vi
-set -g mode-keys vi
-
-# Unbind C-a from Oh my tmux
-set -gu prefix2
-unbind C-a
