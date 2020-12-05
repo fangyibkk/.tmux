@@ -12,13 +12,23 @@ fi
 
 ## Binding
 Prefix are bind to `Ctrl+q`
-`Alt+h` move to left pane
-`Alt+l` move to right pane
-`Alt+j` move to below pane
-`Alt+k` move to above pane
-`Alt+z` Toggle maximize current pane
-`Alt+/` Vertical split
-`Alt+;` Horizontal split
-`Alt+'` Show all pane 
+| binding | action |
+| ------- | ------ |
+|`Alt + h` | move to left pane |
+|`Alt + l` | move to right pane |
+|`Alt + j` | move to below pane |
+|`Alt + k` | move to above pane |
+|`Alt + z` | Toggle maximize current pane |
+|`Alt + '` | Vertical split |
+|`Alt + ;` | Horizontal split |
+|`Alt + e` | Show all pane |
 
 Seeing all binding `tmux list-keys`
+
+## Copy and paste
+use `shift + middlemouse` to paste from primary
+use `shift + ctrl + v` to paste from secondary
+
+## Troubleshoot coloring
+Not much to do when `xterm256` is on \
+Set the gnome window color pallette instead.
