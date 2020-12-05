@@ -11,6 +11,7 @@ fi
 ```
 
 ## Binding
+Prefix are bind to `Ctrl+q`
 `Alt+h` move to left pane
 `Alt+l` move to right pane
 `Alt+j` move to below pane
@@ -19,3 +20,5 @@ fi
 `Alt+/` Vertical split
 `Alt+;` Horizontal split
 `Alt+'` Show all pane 
+
+Seeing all binding `tmux list-keys`
